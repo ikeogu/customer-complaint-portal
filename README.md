@@ -5,9 +5,30 @@ Is a simple CRUD app, no much integration.
 You run it , Do the list below
 
 1. Unizip the file,
-2. create the database and add the config to your .evn file, you can use the sample .env.example file give and run
-    php artisan migrate
-   
+2. create the database and add the config to your .evn file, you can use the sample .env.example file give and run   
 3. run composer install or composer dump autoload
-4. make sure you have php 7.4 and above
+4. php artisan key:generate
+5. php artisan migrate --seed
+6. make sure you have php 7.4 and above
     run php artisan serve
+
+To login 
+    login with 
+  Email: admin@gmail.com
+  password: password
+When you vist 
+    http://127.0.0.1:8000/login
+Once you login as admin
+
+create a new branch
+create a manager
+create a customer 
+and checkout other feature
+
+
+    Handled with Laravel  Jetbrain & Sanctium
+
+Author : Emmanuel Chidera
+
+
+

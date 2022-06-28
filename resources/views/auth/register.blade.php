@@ -29,6 +29,10 @@
                 <x-jet-input id="city" class="block mt-1 w-full" type="text" name="city" :value="old('city')" required autofocus autocomplete="city" />
             </div>
              <div>
+                <x-jet-label for="city" value="{{ __('Branch') }}" />
+                <x-jet-input id="city" class="block mt-1 w-full" type="text" name="city" :value="old('city')" required autofocus autocomplete="branch" />
+            </div>
+             <div>
                 <x-jet-label for="address" value="{{ __('Address') }}" />
                 <x-jet-input id="address" class="block mt-1 w-full" type="text" name="address" :value="old('address')" required autofocus autocomplete="address" />
             </div>
